@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap');
+body{
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background: url(vid26bgg.jpg);
+}
+
+.left{
+    display: inline-block;
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 120px;
+    top: 20px;
+
+}
+.left img{
+    width: 96px;
+    filter: invert(100%); /*IF YOUR IMG IS BLACK THE USE THI PROPERTY IS CONVERT IN WHITE AND ALSO WHITE IMG TO BLACK.*/
+}
+.left div{
+    text-align: center;
+    line-height: 0px;
+    font-size: 23px;
+}
+.mid{
+    display: block;
+    width: 38%;
+    margin: 29px auto;
+    /* border: 2px solid yellow; */
+    
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+    /* border: 2px solid green; */
+
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+    font-size: 25px;
+}
+.navbar li a:hover{
+    color: rgb(163, 145, 192);
+    text-decoration: underline;
+}
+
+.btn{
+    font-family: 'Cabin', sans-serif;
+    margin: 0px 9px;
+    background: black;
+    color: white;
+    padding: 4px 14px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: rgb(163, 145, 192);
+}
+.container{
+    border: 2px solid white;
+    margin: 30px 574px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 20px;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 508px;
+    padding: 2px;
+    border: 2px solid black;
+    margin: 24px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 82%;
+    margin:37px auto ;
+
+}
